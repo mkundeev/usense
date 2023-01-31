@@ -1,0 +1,14 @@
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  li {
+    background-color: #cccccc;
+    width: 100px;
+    text-align: center;
+    padding: 5px;
+    &:not(:last-child) {
+      margin-bottom: 5px;
+    }
+  }
+}
