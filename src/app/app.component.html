@@ -1,3 +1,4 @@
-<h1 class="title">{{ title | titlecase }}</h1>
-<app-password (setPassword)="fwdPassword($event)"></app-password>
-<app-sections [newPassword]="password"></app-sections>
+<div class="container">
+  <app-password (setPassword)="fwdPassword($event)"></app-password>
+  <app-sections [newPassword]="password"></app-sections>
+</div>

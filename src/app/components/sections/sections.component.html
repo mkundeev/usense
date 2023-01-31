@@ -1,6 +1,13 @@
-<h3>{{ newPassword }}</h3>
-<ul class="list">
-  <li class="letters">Letters</li>
-  <li class="numbers">Numbers</li>
-  <li class="symbols">Symbols</li>
+<ul
+  class="section-list"
+  [ngClass]="{
+    length: length > 0 && length < 8,
+    easy: level === 1,
+    medium: level === 2,
+    strong: level === 3
+  }"
+>
+  <li class="item">Easy</li>
+  <li class="item">Medium</li>
+  <li class="item">Strong</li>
 </ul>

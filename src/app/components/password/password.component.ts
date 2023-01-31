@@ -5,7 +5,7 @@ import { Component, Output, EventEmitter } from '@angular/core';
   styleUrls: ['./password.component.scss'],
 })
 export class PasswordComponent {
-  password = '';
+  password: string;
 
   @Output() setPassword = new EventEmitter<string>();
 
