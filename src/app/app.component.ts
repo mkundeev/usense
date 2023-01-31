@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'usense';
   password: string;
-  fwdPassword($event: string) {
-    this.password = $event;
+  fwdPassword(value: string) {
+    this.password = value;
   }
 }
