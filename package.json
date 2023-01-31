@@ -1,6 +1,7 @@
 {
   "name": "usense",
   "version": "0.0.0",
+  "homepage": "https://mkundeev.github.io/my-contacts-book/usense",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
